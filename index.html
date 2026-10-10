@@ -53,6 +53,7 @@ section{padding:clamp(70px,10vw,130px) clamp(20px,5vw,56px)}.w{max-width:1080px;
 .edu{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px}.edu h3{font-size:22px;margin-bottom:4px}.edu p{margin:0;color:var(--mute)}
 footer{background:var(--ink);color:#fff;text-align:center;padding:clamp(70px,10vw,120px) 20px 40px}footer h2{font-size:clamp(36px,7vw,84px);letter-spacing:-.03em;margin-bottom:22px}
 footer .cta{justify-content:center;margin:0 0 40px}footer small{color:#8DA0B0}
+.cvbox{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;border:1.5px solid #ffffff26;border-radius:18px;padding:clamp(24px,4vw,44px)}.cvbox h2{margin-bottom:8px}
 .rv{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
 @media(max-width:820px){nav div a:not(.btn){display:none}.pin{grid-template-columns:1fr;align-content:center;gap:22px}.story{height:420vh}.old{grid-template-columns:1fr}.rings{opacity:.3}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}.hero h1 i{transform:none}html{scroll-behavior:auto}.ly{opacity:1}}
@@ -60,13 +61,13 @@ footer .cta{justify-content:center;margin:0 0 40px}footer small{color:#8DA0B0}
 </head>
 <body>
 <div class="bar" id="bar"></div>
-<nav><b>M.A. Mirshahbazi</b><div><a href="#stack">Full-stack</a><a href="#exp">Experience</a><a href="#work">Projects</a><a href="#edu">Education</a><a class="btn" href="mailto:mr.mirshahbazi@gmail.com" style="padding:8px 18px;opacity:1;color:var(--ink)">Contact</a></div></nav>
+<nav><b>M.A. Mirshahbazi</b><div><a href="#stack">Full-stack</a><a href="#exp">Experience</a><a href="#work">Projects</a><a href="#edu">Education</a><a href="Mohammad-Ali-Mirshahbazi-Resume.pdf" download>CV</a><a class="btn" href="mailto:mr.mirshahbazi@gmail.com" style="padding:8px 18px;opacity:1;color:var(--ink)">Contact</a></div></nav>
 
 <header class="hero"><svg class="rings" id="rings" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="#2DD4BF" stroke-width="1.5"><circle cx="300" cy="300" r="90"/><circle cx="300" cy="300" r="160" opacity=".7" stroke-dasharray="4 10"/><circle cx="300" cy="300" r="230" opacity=".45"/><circle cx="300" cy="300" r="295" opacity=".25" stroke-dasharray="2 12"/></g><circle cx="390" cy="300" r="7" fill="#2DD4BF"/><circle cx="140" cy="215" r="5" fill="#2DD4BF"/><circle cx="470" cy="470" r="5" fill="#2DD4BF"/></svg>
 <div class="w"><h1 id="name" aria-label="Mohammad Ali Mirshahbazi">Mohammad Ali Mirshahbazi</h1>
 <div class="role" id="role" aria-live="off"></div>
 <p>Senior engineer with 10+ years shipping production apps on Android, iOS and Flutter, and the APIs, real-time services and web dashboards behind them. Banking and payments background (ISO 8583, NFC, POS).</p>
-<div class="cta"><a class="btn" href="#stack">See how I build</a><a class="btn o" href="https://github.com/mirshahbazi">GitHub</a><a class="btn o" href="https://linkedin.com/in/mirshahbazi">LinkedIn</a></div>
+<div class="cta"><a class="btn" href="Mohammad-Ali-Mirshahbazi-Resume.pdf" download>Download CV (PDF)</a><a class="btn o" href="#stack">See how I build</a><a class="btn o" href="https://github.com/mirshahbazi">GitHub</a><a class="btn o" href="https://linkedin.com/in/mirshahbazi">LinkedIn</a></div>
 <div class="stats"><div><b data-n="10" data-s="+">0</b><span>years shipping software</span></div><div><b data-n="3">0</b><span>mobile platforms</span></div><div><b data-n="4">0</b><span>engineers led</span></div><div><b data-n="67">0</b><span>GitHub stars on open-source libraries</span></div></div></div></header>
 
 <section class="story" id="stack"><div class="pin" id="pin"><div><h2>One engineer, every layer.</h2><p>Scroll to follow a feature from the database to the store listing.</p><div class="cap" id="cap">Database</div></div>
@@ -102,6 +103,8 @@ footer .cta{justify-content:center;margin:0 0 40px}footer small{color:#8DA0B0}
 <div class="rv"><h3>M.Sc.</h3><p>Islamic Azad University</p></div>
 <div class="rv"><h3>B.Sc. Software</h3><p>Iran Information Technology Development Training Center · 2008 – 2011</p></div>
 <div class="rv"><h3>Languages</h3><p>Persian — native<br>English — upper-intermediate</p></div></div></div></section>
+
+<section class="sec dark" id="cv"><div class="w cvbox rv"><div><h2>Resume</h2><p class="lead" style="margin:0">Two pages, A4. Experience, projects, open source and education.</p></div><a class="btn" href="Mohammad-Ali-Mirshahbazi-Resume.pdf" download>Download PDF</a></div></section>
 
 <footer id="contact"><h2>Let's build something.</h2><div class="cta"><a class="btn" href="mailto:mr.mirshahbazi@gmail.com">mr.mirshahbazi@gmail.com</a><a class="btn o" href="tel:+989125647436">+98 912 564 7436</a></div><small>Karaj, Iran · open to remote roles</small></footer>
 
